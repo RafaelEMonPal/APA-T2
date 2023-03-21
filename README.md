@@ -65,7 +65,7 @@ comprobarse las siguientes condiciones:
 
 ### Entrega
 
-_Funciones hechas en clase:_ \n
+_Funciones hechas en clase:_     
 **esPrimo**
 ``` python
 def esPrimo(numero):
@@ -214,7 +214,7 @@ def mcdN(*numeros):
 
 Hay que mencionar por encima que he trabajado sin las opciones de mcm ni Mcd, previamente trabajadas, ya que he entendido que estábamos diseñando una función que las sobrescribía.
 También me gustaría comentar que estas funciones van bien hasta que se les mete por parámetros un número primo y esto es por como están diseñadas las funciones previas al mcmN y mcdN.
-En el caso de que queramos corregir eso, solamente deberíamos tener en cuenta la función de **descompon(numero)** .\n
+En el caso de que queramos corregir eso, solamente deberíamos tener en cuenta la función de **descompon(numero)** .  
 El cambio a realizar recae en el RETURN de esta función. Previamente, teníamos que la función nos devolvía una tupla vacía cuando se encontraba con cualquier valor primo. Si antes de retornarla vacía evaluamos el contenido de la tupla, si la tenemos vacía significa que el único múltiple de ese número es ese mismo número, así que es el valor que debe meterse en la tupla de factores y es el que se tiene que acabar retornando.
 
 ```python
