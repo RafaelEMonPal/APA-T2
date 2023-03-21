@@ -34,6 +34,10 @@ def descompon(numero):
         while numero%factor == 0:
             factores.append(factor) #append: añadir a una lista
             numero //= factor
+
+    if factores==[]:
+        factores.append(numero)
+        return tuple(factores)
     return tuple(factores)
 
 def dicFact(numero1,numero2):
